@@ -1,12 +1,8 @@
-# Node.js Boilerplate
+# Advent of code 2024
 
-A simple boilerplate for Node.js applications, preconfigured with Babel, ESLint, Prettier, and essential development tools to streamline modern JavaScript development.
+#### https://adventofcode.com/2024
 
-## Features
+### Script to get day results:
 
-- **Modern JavaScript Support**: Transpile code using Babel with `@babel/preset-env`.
-- **Linting & Formatting**: ESLint with Airbnb and Prettier configurations.
-- **Development Tools**: Auto-reload with `nodemon` during development.
-- **Environment Variables**: Manage with `dotenv`.
-- **Build Process**: Transpile source code to a `build` directory with source maps.
-- **Customizable**: Preconfigured but flexible to meet specific project needs.
+`npm run start-day --day=7-2` (for day 7 part 2) 
+
