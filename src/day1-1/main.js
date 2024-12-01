@@ -1,12 +1,12 @@
 import fs from "node:fs";
-// import { parser } from "./parser";
+import { getSolution } from "./solution";
+import { parser } from "./parser";
 
-const getAnswer = () =>
-  // schema
-  // const matrix = parser(schema);
+const getAnswer = (schema) => {
+  const lists = parser(schema);
 
-  // return getSolution(matrix);
-  0;
+  return getSolution(...lists);
+};
 
 const inputFilePath = `${__dirname}/input.txt`;
 
