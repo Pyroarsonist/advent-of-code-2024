@@ -9,7 +9,6 @@ const getNextCell = (x, y, matrix) => {
 
 export const getSolution = (matrix) => {
   let count = 0;
-  // console.table(matrix);
 
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[0].length; j++) {
