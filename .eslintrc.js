@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     "no-plusplus": "off",
     "no-console": ["error", { allow: ["warn", "error", "info"] }],
+    "no-labels": "off",
   },
 };
