@@ -57,7 +57,6 @@ const getScoresSum = () => {
 };
 
 export const getSolution = (matrix) => {
-  // console.table(matrix);
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[0].length; j++) {
       const cell = matrix[i][j];
