@@ -41,7 +41,7 @@ const color = (matrix) => {
     }
   }
 
-  return { colorMatrix, maxColor: nextColor - 1 };
+  return colorMatrix;
 };
 
 const getGroupsByColor = (colorMatrix) => {
@@ -73,9 +73,9 @@ const getPrices = (groups) => {
   return sum;
 };
 export const getSolution = (matrix) => {
-  const { colorMatrix, maxColor } = color(matrix);
+  const colorMatrix = color(matrix);
 
-  const groups = getGroupsByColor(colorMatrix, maxColor);
+  const groups = getGroupsByColor(colorMatrix);
 
   return getPrices(groups);
 };
